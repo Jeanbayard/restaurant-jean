@@ -5,11 +5,9 @@ on:
     branches: [main]
 
 jobs:
-  runs-on: ubuntu-latest
+  exo:
+    runs-on: ubuntu-latest
 
-  sterps:
-    - name: Récupérer le code
-      uses: actions/checkout@v4
-
-    - name: Annonce
-      run: echo"Le restaurant est ouvert !"
+    steps:
+      - name: Annonce
+        run: echo "Le restaurant est ouvert !"
