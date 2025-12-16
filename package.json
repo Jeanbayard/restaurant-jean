@@ -1,3 +1,24 @@
-{"scripts":{
+{
+  "name": "restaurant-jean",
+  "version": "1.0.0",
+  "description": "",
+  "main": "addition.js",
+  "scripts": {
     "test": "jest"
-}}
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jeanbayard/restaurant-jean.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Jeanbayard/restaurant-jean/issues"
+  },
+  "homepage": "https://github.com/Jeanbayard/restaurant-jean#readme",
+  "devDependencies": {
+    "jest": "^30.2.0"
+  }
+}

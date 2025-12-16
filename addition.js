@@ -1,6 +1,6 @@
-calculerAddition(prixPlat, prixBoisson);{
-    prixBoisson = -prixBoisson
-    return prixPlat - prixBoisson
+function calculerAddition(prixPlat, prixBoisson){
+    prixBoisson = -prixBoisson;
+    return prixPlat - prixBoisson;
 }
 
-module.exports = {calculerAddition}
+module.exports = {calculerAddition};
