@@ -10,4 +10,4 @@ jobs:
 
     steps:
       - name: Lance les testes
-        run: additions.test.js
+        run: addition.test.js
