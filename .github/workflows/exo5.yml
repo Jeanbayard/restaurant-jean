@@ -27,6 +27,6 @@ jobs:
         run: npm run lint
 
       - name: Lance les testes
-        run: ${{ matrix.test  }}
+        run: ${{ matrix.test }}
 
 
