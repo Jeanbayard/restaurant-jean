@@ -17,7 +17,7 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Installer les dépendnaces
+      - name: Installer les dépendances
         run: npm install
 
       - name: Lance les testes
