@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        test: [npm.test, npm.test, npm.test]
+        test-caisse: [npm.test, npm.test, npm.test]
 
     steps:
       - name: Récupérer le code
@@ -27,6 +27,6 @@ jobs:
         run: npm run lint
 
       - name: Lance les testes
-        run: ${{ matrix.test }}
+        run: ${{ matrix.test-caisse }}
 
 
