@@ -11,3 +11,11 @@ jobs:
     steps:
       - name: Annonce
         run: echo "Le restaurant est ouvert !"
+
+      - name: Initialiser npm
+        run: npm init -y
+      
+      - name: Installer jest
+        run: npm install --save-dev jest
+
+        
