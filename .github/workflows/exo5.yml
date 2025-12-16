@@ -7,6 +7,9 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        test: [npm.test, npm.test, npm.test]
 
     steps:
       - name: Récupérer le code
@@ -25,7 +28,5 @@ jobs:
 
       - name: Lance les testes
         run: ${{ matrix.test  }}
-        strategy:
-          matrix:
-            test: [npm.test, npm.test, npm.test]
+
 
