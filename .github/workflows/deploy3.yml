@@ -1,4 +1,4 @@
-name: Déployer sur GitHub Pages exo 2
+name: Déployer sur GitHub Pages exo 3
 on:
   push:
     branches: [main]
